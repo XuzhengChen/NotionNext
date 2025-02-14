@@ -12,7 +12,6 @@ export default function ArticleInfo({ post }) {
       <i className='fa-regular fa-clock mr-1' />
       Last update:{' '}
       {post.date?.start_date || post?.publishDay || post?.lastEditedDay}
-      Last update: 20250214
     </div>
   )
 }
